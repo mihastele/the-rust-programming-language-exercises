@@ -5,12 +5,13 @@ use std::io;
 fn main() {
 
     let mut guesses_left = 10;
+    let secret_number = rand::thread_rng().gen_range(1..=100);
+    
     loop {
         println!("Guess the number!");
     
         println!("Please input your guess.");
     
-        let secret_number = rand::thread_rng().gen_range(1..=100);
     
         let mut guess = String::new();
     

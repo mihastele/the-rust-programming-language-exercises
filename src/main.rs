@@ -7,5 +7,5 @@ mod chapter3;
 
 fn main() {
     //chapter2::guessgame();
-    chapter3::variables_and_mutability();
+    chapter3::control_flow();
 }

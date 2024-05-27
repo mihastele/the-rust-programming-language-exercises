@@ -8,5 +8,5 @@ mod chapter4;
 
 fn main() {
     //chapter2::guessgame();
-    chapter4::what_is_ownership();
+    chapter4::references_and_borrowing();
 }

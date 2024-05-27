@@ -8,5 +8,5 @@ mod chapter4;
 
 fn main() {
     //chapter2::guessgame();
-    chapter4::references_and_borrowing();
+    chapter4::the_slice_type();
 }

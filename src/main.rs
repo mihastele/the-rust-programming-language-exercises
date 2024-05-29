@@ -5,8 +5,9 @@
 mod chapter2;
 mod chapter3;
 mod chapter4;
+mod chapter5;
 
 fn main() {
     //chapter2::guessgame();
-    chapter4::the_slice_type();
+    chapter5::defining_and_instantiating_structs();
 }

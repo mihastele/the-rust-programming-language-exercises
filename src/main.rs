@@ -9,5 +9,5 @@ mod chapter5;
 
 fn main() {
     //chapter2::guessgame();
-    chapter5::defining_and_instantiating_structs();
+    chapter5::an_example_program_using_structs();
 }

@@ -6,8 +6,9 @@ mod chapter2;
 mod chapter3;
 mod chapter4;
 mod chapter5;
+mod chapter6;
 
 fn main() {
     //chapter2::guessgame();
-    chapter5::an_example_program_using_structs();
+    chapter6::defining_an_enum();
 }

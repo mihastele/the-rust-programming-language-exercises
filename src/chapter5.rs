@@ -79,11 +79,11 @@ fn build_user_with_shorthand(email: String, username: String) -> User {
 
 
 // Derive debug outer attribute allows println! macro to use {:?} to print the contents of the struct
-#[derive(Debug)]
-struct Rectangle {
-    width: u32,
-    height: u32,
-}
+// #[derive(Debug)]
+// struct Rectangle {
+//     width: u32,
+//     height: u32,
+// }
 
 
 pub fn an_example_program_using_structs() {
@@ -129,4 +129,41 @@ fn area_w_tuples(dimensions: (u32, u32)) -> u32 {
 
 fn area_rect(rectangle: &Rectangle) -> u32 {
     rectangle.width * rectangle.height
+}
+
+
+#[derive(Debug)]
+struct Rectangle {
+    width: u32,
+    height: u32,
+}
+
+impl Rectangle {
+    fn area(&self) -> u32 {
+        self.width * self.height
+    }
+
+    fn can_hold(&self, other: &Rectangle) -> bool {
+        self.width > other.width && self.height > other.height
+    }
+
+    // new is not a keyword in Rust
+    fn square(size: u32) -> Self {
+        Self {
+            width: size,
+            height: size,
+        }
+    }
+}
+
+pub fn method_syntax() {
+    let rect1 = Rectangle {
+        width: 30,
+        height: 50,
+    };
+
+    println!(
+        "The area of the rectangle is {} square pixels.",
+        rect1.area()
+    );
 }

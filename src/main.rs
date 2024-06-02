@@ -10,5 +10,5 @@ mod chapter6;
 
 fn main() {
     //chapter2::guessgame();
-    chapter6::defining_an_enum();
+    chapter6::the_match_control_flow_construct();
 }

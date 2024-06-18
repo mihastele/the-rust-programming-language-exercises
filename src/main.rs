@@ -3,14 +3,14 @@
 // use std::io;
 
 pub mod garden;
-mod chapter2;
-mod chapter3;
-mod chapter4;
-mod chapter5;
-mod chapter6;
-mod chapter7;
-mod chapter8;
-mod chapter9;
+mod chapter2_guessing_game;
+mod chapter3_concepts;
+mod chapter4_ownership;
+mod chapter5_structs;
+mod chapter6_enums_pattern_match;
+mod chapter7_packaging;
+mod chapter8_collections;
+mod chapter9_errors;
 
 fn main() {
     //chapter2::guessgame();
@@ -20,5 +20,5 @@ fn main() {
     //let greeting_file = File::open("hello.txt")?;
 
 
-    chapter9::recoverable_errors_with_result()
+    chapter9_errors::recoverable_errors_with_result()
 }

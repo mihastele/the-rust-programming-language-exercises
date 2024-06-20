@@ -11,6 +11,8 @@ mod chapter6_enums_pattern_match;
 mod chapter7_packaging;
 mod chapter8_collections;
 mod chapter9_errors;
+mod chapter10_generics_traits_lifetimes;
+mod chapter12_io_project;
 
 fn main() {
     //chapter2::guessgame();
@@ -20,5 +22,5 @@ fn main() {
     //let greeting_file = File::open("hello.txt")?;
 
 
-    chapter9_errors::recoverable_errors_with_result()
+    chapter12_io_project::io_project();
 }

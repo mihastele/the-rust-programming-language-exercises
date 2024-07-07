@@ -12,5 +12,7 @@ fn main() {
     //let greeting_file = File::open("hello.txt")?;
 
 
-    therustbook::chapter12_io_project::io_project();
+    // therustbook::chapter12_io_project::io_project();
+
+    therustbook::chapter13_closures_and_iterators::processing_a_series_of_items_with_iterators();
 }

@@ -14,5 +14,5 @@ fn main() {
 
     // therustbook::chapter12_io_project::io_project();
 
-    therustbook::chapter15_smart_pointers::box_t_to_point_to_data_on_the_heap();
+    therustbook::chapter15_smart_pointers::rct_reference_counted_smart_pointer();
 }

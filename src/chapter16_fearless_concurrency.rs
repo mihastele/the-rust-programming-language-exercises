@@ -9,7 +9,7 @@ pub fn using_threads_to_run_code_simultaneously() {
         }
     });
 
-    for i in 1..12 {
+    for i in 1..5 {
         println!("hi number {i} from the main thread!");
         thread::sleep(Duration::from_millis(1));
     }

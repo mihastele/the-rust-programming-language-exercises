@@ -14,5 +14,5 @@ fn main() {
 
     // therustbook::chapter12_io_project::io_project();
 
-    therustbook::chapter15_smart_pointers::reference_cycles_can_leak_memory();
+    therustbook::chapter16_fearless_concurrency::using_threads_to_run_code_simultaneously();
 }

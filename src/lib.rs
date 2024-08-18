@@ -13,3 +13,5 @@ pub mod chapter12_io_project;
 pub mod chapter12_io_project_lib;
 pub mod chapter13_closures_and_iterators;
 pub mod chapter15_smart_pointers;
+
+pub mod chapter16_fearless_concurrency;

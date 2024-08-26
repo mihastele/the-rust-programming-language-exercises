@@ -14,5 +14,5 @@ fn main() {
 
     // therustbook::chapter12_io_project::io_project();
 
-    therustbook::chapter16_fearless_concurrency::using_threads_to_run_code_simultaneously();
+    therustbook::chapter16_fearless_concurrency::using_message_passing_to_transfer_data_between_threads();
 }
